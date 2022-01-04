@@ -10,7 +10,8 @@ div {
     margin: auto;
     font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
-    border-radius: 5px;
+    border-radius: 3px;
+    padding: 0 15px;
 }
 
 .perfil {
@@ -35,7 +36,7 @@ p {
     font-weight: 600;
 }
 
-a {
+.link {
     display: block;
     text-decoration: none;
     background-color: #26de81;
@@ -45,9 +46,10 @@ a {
     padding: 15px 0px;
     font-weight: bold;
     font-size: 17px;
+    transition: all 500ms ease;
 }
 
-a:hover {
+.link:hover {
     background-color: #20bf6b;
 }
 
