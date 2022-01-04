@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(45deg,#fed330, #fd9644);
+}
+
+div {
+    border: 3px solid white;
+    width: 500px;
+    margin: auto;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.perfil {
+    border-radius: 400px;
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 20px auto;  
+    transition: all 500ms ease;
+}
+
+h1 {
+    text-align: center;
+    color: gray;
+    font-size: 25px;
+}
+
+p {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    background-color: #26de81;
+    width: 400px;
+    margin: 20px auto;
+    color: white;
+    padding: 15px 0px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+a:hover {
+    background-color: #20bf6b;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.redes {
+    display: inline-block;
+    width: 50px;
+    margin: 0 10px;
+}
