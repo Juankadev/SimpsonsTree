@@ -1,12 +1,14 @@
 body {
     background: linear-gradient(45deg,#fed330, #fd9644);
+    text-align: center;
+    letter-spacing: 1px;
 }
 
 div {
     border: 3px solid white;
-    width: 500px;
+    max-width: 500px;
     margin: auto;
-    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     border-radius: 5px;
 }
@@ -20,32 +22,29 @@ div {
     transition: all 500ms ease;
 }
 
-h1 {
-    text-align: center;
+h2 {
     color: gray;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 p {
-    text-align: center;
-    width: 400px;
+    max-width: 400px;
     margin: auto;
     margin-bottom: 25px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
 }
 
 a {
     display: block;
-    text-align: center;
     text-decoration: none;
     background-color: #26de81;
-    width: 400px;
+    max-width: 400px;
     margin: 20px auto;
     color: white;
     padding: 15px 0px;
     font-weight: bold;
-    font-size: 19px;
+    font-size: 17px;
 }
 
 a:hover {
@@ -53,14 +52,18 @@ a:hover {
 }
 
 .footer {
+    margin: 15px 0;
+}
+
+.redes-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    max-width: 400px;
 }
 
 .redes {
     display: inline-block;
-    width: 50px;
+    max-width: 50px;
     margin: 0 10px;
 }
