@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg,#fed330, #fd9644);
+    /*background: linear-gradient(45deg,#fed330, #fd9644);*/
     text-align: center;
     letter-spacing: 1px;
     background-image: url('https://media1.popsugar-assets.com/files/thumbor/bzZIujvmK6EiajFntYJeDoqMbvI/fit-in/2048xorig/filters:format_auto-!!-:strip_icc-!!-/2020/04/08/956/n/1922507/5b76eee404090c1b_The_Simpsons/i/Simpsons-Zoom-Background.png');
@@ -8,12 +8,15 @@ body {
     background-size: cover;
 }
 
+.contenedor {
+    background-color: #ffffffc4;
+    border: 3px solid #ffffff71;
+}
+
 div {
-    border: 3px solid white;
     max-width: 500px;
     margin: auto;
     font-family: 'Roboto', sans-serif;
-    background-color: #ffffff;
     border-radius: 3px;
     padding: 0 15px;
 }
@@ -28,7 +31,7 @@ div {
 }
 
 h2 {
-    color: gray;
+    color: rgb(92, 92, 92);
     font-size: 20px;
 }
 
